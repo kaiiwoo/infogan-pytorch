@@ -4,4 +4,4 @@ pytorch implementation of **[InfoGAN: Interpretable Representation Learning by I
 - [x] mnist
 - [ ] celebA
 ## How to run
-```python main --dataset [dataset]```
+```python main.py --dataset [dataset]```
