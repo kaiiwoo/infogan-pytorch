@@ -1,0 +1,73 @@
+2023-02-12 23:05:36,627 INFO    StreamThr :24170 [internal.py:wandb_internal():90] W&B internal server running at pid: 24170, started at: 2023-02-12 23:05:36.625051
+2023-02-12 23:05:36,644 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: status
+2023-02-12 23:05:36,654 INFO    WriterThread:24170 [datastore.py:open_for_write():85] open: /home/keonwookim/infogan/wandb/run-20230212_230536-6oft3n5f/run-6oft3n5f.wandb
+2023-02-12 23:05:36,658 DEBUG   SenderThread:24170 [sender.py:send():336] send: header
+2023-02-12 23:05:36,658 DEBUG   SenderThread:24170 [sender.py:send():336] send: run
+2023-02-12 23:05:37,220 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: check_version
+2023-02-12 23:05:37,224 INFO    SenderThread:24170 [dir_watcher.py:__init__():216] watching files in: /home/keonwookim/infogan/wandb/run-20230212_230536-6oft3n5f/files
+2023-02-12 23:05:37,225 INFO    SenderThread:24170 [sender.py:_start_run_threads():1070] run started: 6oft3n5f with start time 1676210736.609457
+2023-02-12 23:05:37,225 DEBUG   SenderThread:24170 [sender.py:send_request():363] send_request: summary_record
+2023-02-12 23:05:37,227 INFO    SenderThread:24170 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-12 23:05:37,229 DEBUG   SenderThread:24170 [sender.py:send_request():363] send_request: check_version
+2023-02-12 23:05:37,334 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: run_start
+2023-02-12 23:05:38,236 INFO    Thread-18 :24170 [dir_watcher.py:_on_file_created():275] file/dir created: /home/keonwookim/infogan/wandb/run-20230212_230536-6oft3n5f/files/wandb-summary.json
+2023-02-12 23:05:38,676 DEBUG   HandlerThread:24170 [system_info.py:__init__():31] System info init
+2023-02-12 23:05:38,677 DEBUG   HandlerThread:24170 [system_info.py:__init__():46] System info init done
+2023-02-12 23:05:38,678 INFO    HandlerThread:24170 [system_monitor.py:start():151] Starting system monitor
+2023-02-12 23:05:38,683 INFO    HandlerThread:24170 [system_monitor.py:probe():172] Collecting system info
+2023-02-12 23:05:38,684 INFO    SystemMonitor:24170 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-12 23:05:38,688 INFO    SystemMonitor:24170 [interfaces.py:start():168] Started cpu
+2023-02-12 23:05:38,695 INFO    SystemMonitor:24170 [interfaces.py:start():168] Started disk
+2023-02-12 23:05:38,703 INFO    SystemMonitor:24170 [interfaces.py:start():168] Started gpu
+2023-02-12 23:05:38,713 INFO    SystemMonitor:24170 [interfaces.py:start():168] Started memory
+2023-02-12 23:05:38,717 INFO    SystemMonitor:24170 [interfaces.py:start():168] Started network
+2023-02-12 23:05:38,787 DEBUG   HandlerThread:24170 [system_info.py:probe():195] Probing system
+2023-02-12 23:05:38,802 DEBUG   HandlerThread:24170 [git.py:repo():40] git repository is invalid
+2023-02-12 23:05:38,802 DEBUG   HandlerThread:24170 [system_info.py:probe():241] Probing system done
+2023-02-12 23:05:38,803 DEBUG   HandlerThread:24170 [system_monitor.py:probe():181] {'os': 'Linux-4.15.0-197-generic-x86_64-with-debian-buster-sid', 'python': '3.7.4', 'heartbeatAt': '2023-02-12T14:05:38.787192', 'startedAt': '2023-02-12T14:05:36.592402', 'docker': None, 'cuda': '10.2.89', 'args': (), 'state': 'running', 'program': '/home/keonwookim/infogan/dd.py', 'codePath': 'dd.py', 'host': 'snu-aril-1', 'username': 'keonwookim', 'executable': '/home/keonwookim/anaconda3/bin/python', 'cpu_count': 36, 'cpu_count_logical': 72, 'cpu_freq': {'current': 1005.8461944444446, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 1000.067, 'min': 0.0, 'max': 0.0}, {'current': 1000.92, 'min': 0.0, 'max': 0.0}, {'current': 1000.634, 'min': 0.0, 'max': 0.0}, {'current': 1068.914, 'min': 0.0, 'max': 0.0}, {'current': 1001.11, 'min': 0.0, 'max': 0.0}, {'current': 999.963, 'min': 0.0, 'max': 0.0}, {'current': 1000.48, 'min': 0.0, 'max': 0.0}, {'current': 1089.326, 'min': 0.0, 'max': 0.0}, {'current': 1001.067, 'min': 0.0, 'max': 0.0}, {'current': 1000.667, 'min': 0.0, 'max': 0.0}, {'current': 1000.861, 'min': 0.0, 'max': 0.0}, {'current': 1000.783, 'min': 0.0, 'max': 0.0}, {'current': 1000.399, 'min': 0.0, 'max': 0.0}, {'current': 1000.847, 'min': 0.0, 'max': 0.0}, {'current': 1000.726, 'min': 0.0, 'max': 0.0}, {'current': 1000.562, 'min': 0.0, 'max': 0.0}, {'current': 1000.816, 'min': 0.0, 'max': 0.0}, {'current': 1001.108, 'min': 0.0, 'max': 0.0}, {'current': 1000.536, 'min': 0.0, 'max': 0.0}, {'current': 1001.026, 'min': 0.0, 'max': 0.0}, {'current': 1000.831, 'min': 0.0, 'max': 0.0}, {'current': 1000.326, 'min': 0.0, 'max': 0.0}, {'current': 1000.866, 'min': 0.0, 'max': 0.0}, {'current': 1001.259, 'min': 0.0, 'max': 0.0}, {'current': 1001.035, 'min': 0.0, 'max': 0.0}, {'current': 1000.613, 'min': 0.0, 'max': 0.0}, {'current': 1000.868, 'min': 0.0, 'max': 0.0}, {'current': 1000.934, 'min': 0.0, 'max': 0.0}, {'current': 1000.87, 'min': 0.0, 'max': 0.0}, {'current': 1257.905, 'min': 0.0, 'max': 0.0}, {'current': 1000.45, 'min': 0.0, 'max': 0.0}, {'current': 1000.432, 'min': 0.0, 'max': 0.0}, {'current': 1000.437, 'min': 0.0, 'max': 0.0}, {'current': 1000.925, 'min': 0.0, 'max': 0.0}, {'current': 1000.736, 'min': 0.0, 'max': 0.0}, {'current': 1000.634, 'min': 0.0, 'max': 0.0}, {'current': 1001.274, 'min': 0.0, 'max': 0.0}, {'current': 1000.123, 'min': 0.0, 'max': 0.0}, {'current': 1001.331, 'min': 0.0, 'max': 0.0}, {'current': 1388.53, 'min': 0.0, 'max': 0.0}, {'current': 1000.357, 'min': 0.0, 'max': 0.0}, {'current': 1000.006, 'min': 0.0, 'max': 0.0}, {'current': 1000.574, 'min': 0.0, 'max': 0.0}, {'current': 1119.984, 'min': 0.0, 'max': 0.0}, {'current': 1000.86, 'min': 0.0, 'max': 0.0}, {'current': 1000.133, 'min': 0.0, 'max': 0.0}, {'current': 1000.453, 'min': 0.0, 'max': 0.0}, {'current': 1000.791, 'min': 0.0, 'max': 0.0}, {'current': 1000.661, 'min': 0.0, 'max': 0.0}, {'current': 1000.482, 'min': 0.0, 'max': 0.0}, {'current': 1000.735, 'min': 0.0, 'max': 0.0}, {'current': 1000.759, 'min': 0.0, 'max': 0.0}, {'current': 1000.402, 'min': 0.0, 'max': 0.0}, {'current': 1000.423, 'min': 0.0, 'max': 0.0}, {'current': 1000.64, 'min': 0.0, 'max': 0.0}, {'current': 1000.856, 'min': 0.0, 'max': 0.0}, {'current': 1000.511, 'min': 0.0, 'max': 0.0}, {'current': 1000.866, 'min': 0.0, 'max': 0.0}, {'current': 1000.444, 'min': 0.0, 'max': 0.0}, {'current': 1000.181, 'min': 0.0, 'max': 0.0}, {'current': 1000.616, 'min': 0.0, 'max': 0.0}, {'current': 1000.735, 'min': 0.0, 'max': 0.0}, {'current': 1000.883, 'min': 0.0, 'max': 0.0}, {'current': 1000.384, 'min': 0.0, 'max': 0.0}, {'current': 1000.434, 'min': 0.0, 'max': 0.0}, {'current': 1424.182, 'min': 0.0, 'max': 0.0}, {'current': 1000.654, 'min': 0.0, 'max': 0.0}, {'current': 1000.661, 'min': 0.0, 'max': 0.0}, {'current': 1000.446, 'min': 0.0, 'max': 0.0}, {'current': 1000.586, 'min': 0.0, 'max': 0.0}, {'current': 1000.975, 'min': 0.0, 'max': 0.0}, {'current': 1000.474, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 533.3791122436523, 'used': 51.7646484375}, 'gpu': 'NVIDIA TITAN Xp', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA TITAN Xp', 'memory_total': 12788498432}, {'name': 'NVIDIA TITAN Xp', 'memory_total': 12788498432}, {'name': 'NVIDIA TITAN Xp', 'memory_total': 12788498432}, {'name': 'NVIDIA TITAN Xp', 'memory_total': 12788498432}], 'memory': {'total': 251.40525436401367}}
+2023-02-12 23:05:38,804 INFO    HandlerThread:24170 [system_monitor.py:probe():182] Finished collecting system info
+2023-02-12 23:05:38,804 INFO    HandlerThread:24170 [system_monitor.py:probe():185] Publishing system info
+2023-02-12 23:05:38,804 DEBUG   HandlerThread:24170 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-02-12 23:05:38,809 DEBUG   HandlerThread:24170 [system_info.py:_save_pip():67] Saving pip packages done
+2023-02-12 23:05:38,809 DEBUG   HandlerThread:24170 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-02-12 23:05:39,227 INFO    Thread-18 :24170 [dir_watcher.py:_on_file_created():275] file/dir created: /home/keonwookim/infogan/wandb/run-20230212_230536-6oft3n5f/files/conda-environment.yaml
+2023-02-12 23:05:39,234 INFO    Thread-18 :24170 [dir_watcher.py:_on_file_created():275] file/dir created: /home/keonwookim/infogan/wandb/run-20230212_230536-6oft3n5f/files/requirements.txt
+2023-02-12 23:05:43,230 INFO    Thread-18 :24170 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_230536-6oft3n5f/files/conda-environment.yaml
+2023-02-12 23:05:43,260 DEBUG   HandlerThread:24170 [system_info.py:_save_conda():86] Saving conda packages done
+2023-02-12 23:05:43,276 INFO    HandlerThread:24170 [system_monitor.py:probe():187] Finished publishing system info
+2023-02-12 23:05:43,289 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 23:05:43,289 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 23:05:43,292 DEBUG   SenderThread:24170 [sender.py:send():336] send: files
+2023-02-12 23:05:43,293 INFO    SenderThread:24170 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-02-12 23:05:43,322 DEBUG   SenderThread:24170 [sender.py:send():336] send: telemetry
+2023-02-12 23:05:43,323 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: stop_status
+2023-02-12 23:05:43,325 DEBUG   SenderThread:24170 [sender.py:send_request():363] send_request: stop_status
+2023-02-12 23:05:44,115 INFO    wandb-upload_0:24170 [upload_job.py:push():138] Uploaded file /tmp/tmplze8uz6lwandb/39w04oda-wandb-metadata.json
+2023-02-12 23:05:44,231 INFO    Thread-18 :24170 [dir_watcher.py:_on_file_created():275] file/dir created: /home/keonwookim/infogan/wandb/run-20230212_230536-6oft3n5f/files/wandb-metadata.json
+2023-02-12 23:05:45,232 INFO    Thread-18 :24170 [dir_watcher.py:_on_file_created():275] file/dir created: /home/keonwookim/infogan/wandb/run-20230212_230536-6oft3n5f/files/output.log
+2023-02-12 23:05:47,234 INFO    Thread-18 :24170 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_230536-6oft3n5f/files/output.log
+2023-02-12 23:05:47,640 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 23:05:49,236 INFO    Thread-18 :24170 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_230536-6oft3n5f/files/output.log
+2023-02-12 23:05:52,644 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 23:05:57,646 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 23:05:58,315 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 23:06:02,648 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 23:06:03,317 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 23:06:07,655 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 23:06:08,262 INFO    Thread-18 :24170 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_230536-6oft3n5f/files/config.yaml
+2023-02-12 23:06:08,319 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 23:06:12,935 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 23:06:13,322 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 23:06:13,323 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 23:06:17,937 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 23:06:18,325 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 23:06:22,939 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 23:06:23,328 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 23:06:27,941 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 23:06:28,330 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 23:06:32,942 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 23:06:33,332 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 23:06:37,944 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 23:06:38,335 DEBUG   HandlerThread:24170 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 23:06:38,718 DEBUG   SystemMonitor:24170 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-02-12 23:06:38,730 DEBUG   SenderThread:24170 [sender.py:send():336] send: stats

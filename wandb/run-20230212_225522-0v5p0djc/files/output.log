@@ -1,0 +1,28 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0001 | Iter: 1826 | G Loss: 0.81 | D Loss: 1.32 | MI: 1.92 | Real Acc: 50.00% | Fake Acc: 500.00%:  24%|█████████████▉                                           | 1826/7500 [00:34<01:47, 52.74it/s]
+Traceback (most recent call last):
+  File "dd.py", line 286, in <module>
+    sample_img(model_G, control='cat')
+  File "dd.py", line 251, in main
+    D_loss2 = adv_loss(real_logits, real_label)
+  File "/home/keonwookim/anaconda3/lib/python3.7/site-packages/torch/_tensor.py", line 255, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/keonwookim/anaconda3/lib/python3.7/site-packages/torch/autograd/__init__.py", line 149, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+KeyboardInterrupt

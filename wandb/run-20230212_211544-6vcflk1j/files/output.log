@@ -1,0 +1,105 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0001 | Iter: 3750 | G Loss: 0.89 | D Loss: 1.20 | MI: 1.48 | Real Acc: 75.00% | Fake Acc: 600.00%: 100%|█| 3750/3750 [01:09<00:00, 53.93it/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0002 | Iter: 3750 | G Loss: 0.91 | D Loss: 1.18 | MI: 1.54 | Real Acc: 68.75% | Fake Acc: 1300.00%: 100%|█| 3750/3750 [01:07<00:00, 55.52it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0003 | Iter: 3007 | G Loss: 0.88 | D Loss: 1.15 | MI: 1.60 | Real Acc: 81.25% | Fake Acc: 1200.00%:  80%|▊| 3007/3750 [04:01<00:59, 12.45it
+Traceback (most recent call last):
+  File "dd.py", line 262, in <module>
+    z_code = torch.randn(B, 62).to(args.device)
+  File "dd.py", line 258, in main
+    """train via Mutual Info term"""
+RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.

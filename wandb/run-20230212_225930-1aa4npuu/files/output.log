@@ -1,0 +1,11 @@
+Epoch: 0001 | Iter: 0030 | G Loss: 0.69 | D Loss: 1.41 | MI: 2.35 | Real Acc: 62.50% | Fake Acc: 300.00%:   0%|▏                                                          | 30/7500 [00:00<03:38, 34.26it/s]
+Traceback (most recent call last):
+  File "dd.py", line 291, in <module>
+    main(args)
+  File "dd.py", line 288, in main
+    sample_img(model_G, control='cat')
+  File "/home/keonwookim/anaconda3/lib/python3.7/site-packages/torch/autograd/grad_mode.py", line 28, in decorate_context
+    return func(*args, **kwargs)
+  File "dd.py", line 68, in sample_img
+    img = model(torch.cat([fix_z, one_hot, fix_code], dim=-1))
+RuntimeError: Tensors must have same number of dimensions: got 2 and 1

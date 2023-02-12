@@ -1,0 +1,11 @@
+Epoch: 0001 | Iter: 0030 | G Loss: 0.69 | D Loss: 1.41 | MI: 2.35 | Real Acc: 62.50% | Fake Acc: 300.00%:   0%|▏                                                          | 30/7500 [00:00<03:54, 31.83it/s]
+Traceback (most recent call last):
+  File "dd.py", line 289, in <module>
+    main(args)
+  File "dd.py", line 286, in main
+    sample_img(model_G, control='cat')
+  File "/home/keonwookim/anaconda3/lib/python3.7/site-packages/torch/autograd/grad_mode.py", line 28, in decorate_context
+    return func(*args, **kwargs)
+  File "dd.py", line 66, in sample_img
+    one_hot = F.one_hot(i, num_classes=10).to(args.device)
+TypeError: one_hot(): argument 'input' (position 1) must be Tensor, not int

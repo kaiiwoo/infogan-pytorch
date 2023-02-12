@@ -1,0 +1,390 @@
+2023-02-12 21:00:18,061 INFO    StreamThr :8562 [internal.py:wandb_internal():90] W&B internal server running at pid: 8562, started at: 2023-02-12 21:00:18.060593
+2023-02-12 21:00:18,065 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status
+2023-02-12 21:00:18,068 INFO    WriterThread:8562 [datastore.py:open_for_write():85] open: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/run-av1kbwb0.wandb
+2023-02-12 21:00:18,072 DEBUG   SenderThread:8562 [sender.py:send():336] send: header
+2023-02-12 21:00:18,073 DEBUG   SenderThread:8562 [sender.py:send():336] send: run
+2023-02-12 21:00:18,611 INFO    SenderThread:8562 [dir_watcher.py:__init__():216] watching files in: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files
+2023-02-12 21:00:18,612 INFO    SenderThread:8562 [sender.py:_start_run_threads():1070] run started: av1kbwb0 with start time 1676203218.055918
+2023-02-12 21:00:18,612 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: summary_record
+2023-02-12 21:00:18,613 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: check_version
+2023-02-12 21:00:18,614 INFO    SenderThread:8562 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-12 21:00:18,614 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: check_version
+2023-02-12 21:00:18,701 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: run_start
+2023-02-12 21:00:19,615 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_created():275] file/dir created: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/wandb-summary.json
+2023-02-12 21:00:20,369 DEBUG   HandlerThread:8562 [system_info.py:__init__():31] System info init
+2023-02-12 21:00:20,369 DEBUG   HandlerThread:8562 [system_info.py:__init__():46] System info init done
+2023-02-12 21:00:20,369 INFO    HandlerThread:8562 [system_monitor.py:start():151] Starting system monitor
+2023-02-12 21:00:20,370 INFO    SystemMonitor:8562 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-12 21:00:20,371 INFO    HandlerThread:8562 [system_monitor.py:probe():172] Collecting system info
+2023-02-12 21:00:20,372 INFO    SystemMonitor:8562 [interfaces.py:start():168] Started cpu
+2023-02-12 21:00:20,374 INFO    SystemMonitor:8562 [interfaces.py:start():168] Started disk
+2023-02-12 21:00:20,377 INFO    SystemMonitor:8562 [interfaces.py:start():168] Started gpu
+2023-02-12 21:00:20,378 INFO    SystemMonitor:8562 [interfaces.py:start():168] Started memory
+2023-02-12 21:00:20,379 INFO    SystemMonitor:8562 [interfaces.py:start():168] Started network
+2023-02-12 21:00:20,445 DEBUG   HandlerThread:8562 [system_info.py:probe():195] Probing system
+2023-02-12 21:00:20,456 DEBUG   HandlerThread:8562 [git.py:repo():40] git repository is invalid
+2023-02-12 21:00:20,456 DEBUG   HandlerThread:8562 [system_info.py:probe():241] Probing system done
+2023-02-12 21:00:20,457 DEBUG   HandlerThread:8562 [system_monitor.py:probe():181] {'os': 'Linux-4.15.0-197-generic-x86_64-with-debian-buster-sid', 'python': '3.7.4', 'heartbeatAt': '2023-02-12T12:00:20.445954', 'startedAt': '2023-02-12T12:00:18.043096', 'docker': None, 'cuda': '10.2.89', 'args': (), 'state': 'running', 'program': 'dd.py', 'codePath': 'dd.py', 'host': 'snu-aril-1', 'username': 'keonwookim', 'executable': '/home/keonwookim/anaconda3/bin/python', 'cpu_count': 36, 'cpu_count_logical': 72, 'cpu_freq': {'current': 1046.1243055555556, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 1000.101, 'min': 0.0, 'max': 0.0}, {'current': 1001.958, 'min': 0.0, 'max': 0.0}, {'current': 1000.553, 'min': 0.0, 'max': 0.0}, {'current': 1000.393, 'min': 0.0, 'max': 0.0}, {'current': 1000.592, 'min': 0.0, 'max': 0.0}, {'current': 1000.704, 'min': 0.0, 'max': 0.0}, {'current': 1000.913, 'min': 0.0, 'max': 0.0}, {'current': 1000.429, 'min': 0.0, 'max': 0.0}, {'current': 1000.418, 'min': 0.0, 'max': 0.0}, {'current': 1000.743, 'min': 0.0, 'max': 0.0}, {'current': 1000.002, 'min': 0.0, 'max': 0.0}, {'current': 1000.312, 'min': 0.0, 'max': 0.0}, {'current': 1000.371, 'min': 0.0, 'max': 0.0}, {'current': 1001.053, 'min': 0.0, 'max': 0.0}, {'current': 1000.741, 'min': 0.0, 'max': 0.0}, {'current': 1000.618, 'min': 0.0, 'max': 0.0}, {'current': 1000.498, 'min': 0.0, 'max': 0.0}, {'current': 1000.456, 'min': 0.0, 'max': 0.0}, {'current': 1000.722, 'min': 0.0, 'max': 0.0}, {'current': 999.97, 'min': 0.0, 'max': 0.0}, {'current': 1000.578, 'min': 0.0, 'max': 0.0}, {'current': 1000.17, 'min': 0.0, 'max': 0.0}, {'current': 1000.312, 'min': 0.0, 'max': 0.0}, {'current': 1000.35, 'min': 0.0, 'max': 0.0}, {'current': 1000.686, 'min': 0.0, 'max': 0.0}, {'current': 1000.813, 'min': 0.0, 'max': 0.0}, {'current': 1000.618, 'min': 0.0, 'max': 0.0}, {'current': 1286.331, 'min': 0.0, 'max': 0.0}, {'current': 1000.57, 'min': 0.0, 'max': 0.0}, {'current': 1000.415, 'min': 0.0, 'max': 0.0}, {'current': 1001.531, 'min': 0.0, 'max': 0.0}, {'current': 1000.877, 'min': 0.0, 'max': 0.0}, {'current': 1000.913, 'min': 0.0, 'max': 0.0}, {'current': 1105.757, 'min': 0.0, 'max': 0.0}, {'current': 1000.262, 'min': 0.0, 'max': 0.0}, {'current': 1001.009, 'min': 0.0, 'max': 0.0}, {'current': 1000.255, 'min': 0.0, 'max': 0.0}, {'current': 1000.123, 'min': 0.0, 'max': 0.0}, {'current': 1000.157, 'min': 0.0, 'max': 0.0}, {'current': 1000.468, 'min': 0.0, 'max': 0.0}, {'current': 1000.647, 'min': 0.0, 'max': 0.0}, {'current': 1000.563, 'min': 0.0, 'max': 0.0}, {'current': 1000.029, 'min': 0.0, 'max': 0.0}, {'current': 1000.521, 'min': 0.0, 'max': 0.0}, {'current': 1000.796, 'min': 0.0, 'max': 0.0}, {'current': 1001.135, 'min': 0.0, 'max': 0.0}, {'current': 1000.118, 'min': 0.0, 'max': 0.0}, {'current': 1000.428, 'min': 0.0, 'max': 0.0}, {'current': 1000.793, 'min': 0.0, 'max': 0.0}, {'current': 1000.753, 'min': 0.0, 'max': 0.0}, {'current': 1001.139, 'min': 0.0, 'max': 0.0}, {'current': 1000.678, 'min': 0.0, 'max': 0.0}, {'current': 1000.709, 'min': 0.0, 'max': 0.0}, {'current': 1000.888, 'min': 0.0, 'max': 0.0}, {'current': 1000.928, 'min': 0.0, 'max': 0.0}, {'current': 1000.596, 'min': 0.0, 'max': 0.0}, {'current': 1000.672, 'min': 0.0, 'max': 0.0}, {'current': 1000.918, 'min': 0.0, 'max': 0.0}, {'current': 1000.5, 'min': 0.0, 'max': 0.0}, {'current': 1000.284, 'min': 0.0, 'max': 0.0}, {'current': 1000.535, 'min': 0.0, 'max': 0.0}, {'current': 1000.649, 'min': 0.0, 'max': 0.0}, {'current': 1000.846, 'min': 0.0, 'max': 0.0}, {'current': 1779.415, 'min': 0.0, 'max': 0.0}, {'current': 1000.419, 'min': 0.0, 'max': 0.0}, {'current': 1000.4, 'min': 0.0, 'max': 0.0}, {'current': 1000.123, 'min': 0.0, 'max': 0.0}, {'current': 1000.685, 'min': 0.0, 'max': 0.0}, {'current': 1001.14, 'min': 0.0, 'max': 0.0}, {'current': 1000.296, 'min': 0.0, 'max': 0.0}, {'current': 1000.957, 'min': 0.0, 'max': 0.0}, {'current': 1000.797, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 533.3791122436523, 'used': 51.7640495300293}, 'gpu': 'NVIDIA TITAN Xp', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA TITAN Xp', 'memory_total': 12788498432}, {'name': 'NVIDIA TITAN Xp', 'memory_total': 12788498432}, {'name': 'NVIDIA TITAN Xp', 'memory_total': 12788498432}, {'name': 'NVIDIA TITAN Xp', 'memory_total': 12788498432}], 'memory': {'total': 251.40525436401367}}
+2023-02-12 21:00:20,457 INFO    HandlerThread:8562 [system_monitor.py:probe():182] Finished collecting system info
+2023-02-12 21:00:20,457 INFO    HandlerThread:8562 [system_monitor.py:probe():185] Publishing system info
+2023-02-12 21:00:20,457 DEBUG   HandlerThread:8562 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-02-12 21:00:20,460 DEBUG   HandlerThread:8562 [system_info.py:_save_pip():67] Saving pip packages done
+2023-02-12 21:00:20,460 DEBUG   HandlerThread:8562 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-02-12 21:00:20,622 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_created():275] file/dir created: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/requirements.txt
+2023-02-12 21:00:20,623 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_created():275] file/dir created: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/conda-environment.yaml
+2023-02-12 21:00:24,961 DEBUG   HandlerThread:8562 [system_info.py:_save_conda():86] Saving conda packages done
+2023-02-12 21:00:24,964 INFO    HandlerThread:8562 [system_monitor.py:probe():187] Finished publishing system info
+2023-02-12 21:00:25,032 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:00:25,033 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:00:25,035 DEBUG   SenderThread:8562 [sender.py:send():336] send: files
+2023-02-12 21:00:25,036 INFO    SenderThread:8562 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-02-12 21:00:25,050 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: stop_status
+2023-02-12 21:00:25,052 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: stop_status
+2023-02-12 21:00:25,297 DEBUG   SenderThread:8562 [sender.py:send():336] send: telemetry
+2023-02-12 21:00:25,616 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/conda-environment.yaml
+2023-02-12 21:00:25,617 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_created():275] file/dir created: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/wandb-metadata.json
+2023-02-12 21:00:25,750 INFO    wandb-upload_0:8562 [upload_job.py:push():138] Uploaded file /tmp/tmpkxd7wmk2wandb/4ttviyqr-wandb-metadata.json
+2023-02-12 21:00:27,617 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_created():275] file/dir created: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:00:28,704 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:00:29,618 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:00:31,620 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:00:33,621 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:00:33,719 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:00:35,622 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:00:37,623 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:00:38,733 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:00:39,624 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:00:40,045 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:00:40,045 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:00:41,625 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:00:43,646 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:00:43,744 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:00:45,047 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:00:45,647 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:00:47,648 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:00:48,768 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:00:49,650 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/config.yaml
+2023-02-12 21:00:49,651 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:00:50,049 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:00:51,651 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:00:53,654 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:00:54,065 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:00:55,054 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:00:55,655 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:00:57,677 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:00:59,073 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:00:59,678 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:00,052 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:01:01,679 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:03,680 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:04,083 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:01:05,054 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:01:05,681 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:07,682 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:09,105 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:01:09,693 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:10,055 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:01:11,694 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:13,695 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:14,119 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:01:15,057 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:01:15,696 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:17,698 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:19,135 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:01:19,706 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:20,058 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:01:20,382 DEBUG   SystemMonitor:8562 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-02-12 21:01:20,387 DEBUG   SenderThread:8562 [sender.py:send():336] send: stats
+2023-02-12 21:01:21,707 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:23,708 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:24,137 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:01:25,059 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:01:25,709 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:27,711 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:29,149 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:01:29,712 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:30,060 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:01:31,726 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:33,728 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:34,166 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:01:35,061 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:01:35,729 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:37,730 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:39,169 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:01:39,731 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:40,063 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:01:41,732 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:43,758 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:44,177 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:01:45,064 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:01:45,759 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:47,760 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:49,178 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:01:49,761 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:50,065 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:01:50,391 DEBUG   SenderThread:8562 [sender.py:send():336] send: stats
+2023-02-12 21:01:51,763 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:53,764 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:54,181 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:01:55,067 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:01:55,772 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:57,773 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:01:59,203 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:01:59,774 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:00,068 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:02:01,776 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:03,777 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:04,220 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:02:05,069 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:02:05,778 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:07,779 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:09,232 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:02:09,780 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:10,070 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:02:11,782 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:13,783 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:14,239 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:02:15,071 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:02:15,784 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:17,797 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:19,244 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:02:19,798 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:20,072 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:02:20,406 DEBUG   SenderThread:8562 [sender.py:send():336] send: stats
+2023-02-12 21:02:21,799 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:23,802 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:24,265 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:02:25,074 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:02:25,803 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:27,804 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:29,274 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:02:29,813 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:30,075 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:02:31,814 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:33,815 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:34,298 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:02:35,076 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:02:35,816 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:37,817 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:39,310 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:02:39,819 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:40,078 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:02:41,820 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:43,821 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:44,319 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:02:45,079 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:02:45,822 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:47,823 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:49,334 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:02:49,824 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:50,080 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:02:50,399 DEBUG   SenderThread:8562 [sender.py:send():336] send: stats
+2023-02-12 21:02:51,831 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:53,832 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:54,337 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:02:55,081 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:02:55,833 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:57,834 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:02:59,355 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:02:59,835 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:00,083 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:03:01,837 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:03,837 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:04,356 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:03:05,084 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:03:05,856 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:07,857 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:09,362 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:03:09,859 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:10,085 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:03:11,860 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:13,861 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:14,369 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:03:15,087 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:03:15,861 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:17,875 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:19,387 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:03:19,876 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:20,088 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:03:20,404 DEBUG   SenderThread:8562 [sender.py:send():336] send: stats
+2023-02-12 21:03:21,877 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:23,879 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:24,395 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:03:25,090 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:03:25,881 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:27,882 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:29,395 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:03:29,883 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:30,091 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:03:31,901 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:33,902 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:34,410 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:03:35,093 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:03:35,903 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:37,904 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:39,416 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:03:39,905 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:40,094 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:03:41,906 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:43,907 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:44,419 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:03:45,095 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:03:45,908 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:47,909 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:49,420 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:03:49,910 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:50,097 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:03:50,406 DEBUG   SenderThread:8562 [sender.py:send():336] send: stats
+2023-02-12 21:03:51,911 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:53,912 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:54,421 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:03:55,098 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:03:55,913 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:57,930 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:03:59,434 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:03:59,931 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:04:00,100 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:04:01,932 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:04:03,933 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:04:04,449 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:04:05,101 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:04:05,934 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:04:07,935 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:04:09,455 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:04:09,949 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:04:10,103 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:04:11,950 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:04:13,952 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:04:14,461 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:04:15,104 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 21:04:15,953 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:04:17,955 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:04:19,420 DEBUG   SenderThread:8562 [sender.py:send():336] send: exit
+2023-02-12 21:04:19,420 INFO    SenderThread:8562 [sender.py:send_exit():559] handling exit code: 1
+2023-02-12 21:04:19,421 INFO    SenderThread:8562 [sender.py:send_exit():561] handling runtime: 240
+2023-02-12 21:04:19,422 INFO    SenderThread:8562 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-12 21:04:19,422 INFO    SenderThread:8562 [sender.py:send_exit():567] send defer
+2023-02-12 21:04:19,423 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 21:04:19,423 INFO    HandlerThread:8562 [handler.py:handle_request_defer():170] handle defer: 0
+2023-02-12 21:04:19,424 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: defer
+2023-02-12 21:04:19,424 INFO    SenderThread:8562 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-02-12 21:04:19,424 INFO    SenderThread:8562 [sender.py:transition_state():587] send defer: 1
+2023-02-12 21:04:19,424 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 21:04:19,425 INFO    HandlerThread:8562 [handler.py:handle_request_defer():170] handle defer: 1
+2023-02-12 21:04:19,425 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: defer
+2023-02-12 21:04:19,425 INFO    SenderThread:8562 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-02-12 21:04:19,425 INFO    SenderThread:8562 [sender.py:transition_state():587] send defer: 2
+2023-02-12 21:04:19,426 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 21:04:19,426 INFO    HandlerThread:8562 [handler.py:handle_request_defer():170] handle defer: 2
+2023-02-12 21:04:19,426 INFO    HandlerThread:8562 [system_monitor.py:finish():161] Stopping system monitor
+2023-02-12 21:04:19,429 DEBUG   SystemMonitor:8562 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-02-12 21:04:19,429 DEBUG   SystemMonitor:8562 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-02-12 21:04:19,434 INFO    HandlerThread:8562 [interfaces.py:finish():175] Joined cpu
+2023-02-12 21:04:19,435 INFO    HandlerThread:8562 [interfaces.py:finish():175] Joined disk
+2023-02-12 21:04:19,707 INFO    HandlerThread:8562 [interfaces.py:finish():175] Joined gpu
+2023-02-12 21:04:19,707 INFO    HandlerThread:8562 [interfaces.py:finish():175] Joined memory
+2023-02-12 21:04:19,707 INFO    HandlerThread:8562 [interfaces.py:finish():175] Joined network
+2023-02-12 21:04:19,709 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: defer
+2023-02-12 21:04:19,709 INFO    SenderThread:8562 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-02-12 21:04:19,709 INFO    SenderThread:8562 [sender.py:transition_state():587] send defer: 3
+2023-02-12 21:04:19,709 DEBUG   SenderThread:8562 [sender.py:send():336] send: stats
+2023-02-12 21:04:19,710 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 21:04:19,712 INFO    HandlerThread:8562 [handler.py:handle_request_defer():170] handle defer: 3
+2023-02-12 21:04:19,712 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:04:19,712 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: defer
+2023-02-12 21:04:19,713 INFO    SenderThread:8562 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-02-12 21:04:19,713 INFO    SenderThread:8562 [sender.py:transition_state():587] send defer: 4
+2023-02-12 21:04:19,713 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 21:04:19,713 INFO    HandlerThread:8562 [handler.py:handle_request_defer():170] handle defer: 4
+2023-02-12 21:04:19,714 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: defer
+2023-02-12 21:04:19,714 INFO    SenderThread:8562 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-02-12 21:04:19,714 INFO    SenderThread:8562 [sender.py:transition_state():587] send defer: 5
+2023-02-12 21:04:19,715 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 21:04:19,715 INFO    HandlerThread:8562 [handler.py:handle_request_defer():170] handle defer: 5
+2023-02-12 21:04:19,715 DEBUG   SenderThread:8562 [sender.py:send():336] send: summary
+2023-02-12 21:04:19,716 INFO    SenderThread:8562 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-12 21:04:19,717 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: defer
+2023-02-12 21:04:19,717 INFO    SenderThread:8562 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-02-12 21:04:19,717 INFO    SenderThread:8562 [sender.py:transition_state():587] send defer: 6
+2023-02-12 21:04:19,717 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 21:04:19,717 INFO    HandlerThread:8562 [handler.py:handle_request_defer():170] handle defer: 6
+2023-02-12 21:04:19,718 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: defer
+2023-02-12 21:04:19,718 INFO    SenderThread:8562 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-02-12 21:04:19,718 INFO    SenderThread:8562 [sender.py:transition_state():587] send defer: 7
+2023-02-12 21:04:19,718 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 21:04:19,719 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 21:04:19,719 INFO    HandlerThread:8562 [handler.py:handle_request_defer():170] handle defer: 7
+2023-02-12 21:04:19,719 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: defer
+2023-02-12 21:04:19,720 INFO    SenderThread:8562 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-02-12 21:04:19,956 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/wandb-summary.json
+2023-02-12 21:04:19,957 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:04:20,420 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-12 21:04:21,659 INFO    SenderThread:8562 [sender.py:transition_state():587] send defer: 8
+2023-02-12 21:04:21,659 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: poll_exit
+2023-02-12 21:04:21,660 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 21:04:21,660 INFO    HandlerThread:8562 [handler.py:handle_request_defer():170] handle defer: 8
+2023-02-12 21:04:21,661 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: defer
+2023-02-12 21:04:21,661 INFO    SenderThread:8562 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-02-12 21:04:21,662 INFO    SenderThread:8562 [sender.py:transition_state():587] send defer: 9
+2023-02-12 21:04:21,662 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 21:04:21,662 INFO    HandlerThread:8562 [handler.py:handle_request_defer():170] handle defer: 9
+2023-02-12 21:04:21,663 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: defer
+2023-02-12 21:04:21,663 INFO    SenderThread:8562 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-02-12 21:04:21,663 INFO    SenderThread:8562 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-02-12 21:04:21,957 INFO    Thread-13 :8562 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:04:21,959 INFO    SenderThread:8562 [dir_watcher.py:finish():392] scan: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files
+2023-02-12 21:04:21,959 INFO    SenderThread:8562 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log output.log
+2023-02-12 21:04:21,959 INFO    SenderThread:8562 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/config.yaml config.yaml
+2023-02-12 21:04:21,960 INFO    SenderThread:8562 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/wandb-metadata.json wandb-metadata.json
+2023-02-12 21:04:21,960 INFO    SenderThread:8562 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/conda-environment.yaml conda-environment.yaml
+2023-02-12 21:04:21,967 INFO    SenderThread:8562 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/requirements.txt requirements.txt
+2023-02-12 21:04:21,977 INFO    SenderThread:8562 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/wandb-summary.json wandb-summary.json
+2023-02-12 21:04:21,986 INFO    SenderThread:8562 [sender.py:transition_state():587] send defer: 10
+2023-02-12 21:04:21,992 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 21:04:21,992 INFO    HandlerThread:8562 [handler.py:handle_request_defer():170] handle defer: 10
+2023-02-12 21:04:21,995 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: defer
+2023-02-12 21:04:21,995 INFO    SenderThread:8562 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-02-12 21:04:21,996 INFO    SenderThread:8562 [file_pusher.py:finish():162] shutting down file pusher
+2023-02-12 21:04:22,596 INFO    wandb-upload_1:8562 [upload_job.py:push():138] Uploaded file /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/output.log
+2023-02-12 21:04:22,694 INFO    wandb-upload_4:8562 [upload_job.py:push():138] Uploaded file /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/wandb-summary.json
+2023-02-12 21:04:22,706 INFO    wandb-upload_2:8562 [upload_job.py:push():138] Uploaded file /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/config.yaml
+2023-02-12 21:04:22,707 INFO    wandb-upload_0:8562 [upload_job.py:push():138] Uploaded file /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/requirements.txt
+2023-02-12 21:04:22,762 INFO    wandb-upload_3:8562 [upload_job.py:push():138] Uploaded file /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/files/conda-environment.yaml
+2023-02-12 21:04:22,963 INFO    Thread-12 :8562 [sender.py:transition_state():587] send defer: 11
+2023-02-12 21:04:22,963 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 21:04:22,971 INFO    HandlerThread:8562 [handler.py:handle_request_defer():170] handle defer: 11
+2023-02-12 21:04:22,972 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: defer
+2023-02-12 21:04:22,972 INFO    SenderThread:8562 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-02-12 21:04:22,972 INFO    SenderThread:8562 [file_pusher.py:join():167] waiting for file pusher
+2023-02-12 21:04:22,973 INFO    SenderThread:8562 [sender.py:transition_state():587] send defer: 12
+2023-02-12 21:04:22,973 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 21:04:22,973 INFO    HandlerThread:8562 [handler.py:handle_request_defer():170] handle defer: 12
+2023-02-12 21:04:22,974 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: defer
+2023-02-12 21:04:22,974 INFO    SenderThread:8562 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-02-12 21:04:23,651 INFO    SenderThread:8562 [sender.py:transition_state():587] send defer: 13
+2023-02-12 21:04:23,651 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 21:04:23,652 INFO    HandlerThread:8562 [handler.py:handle_request_defer():170] handle defer: 13
+2023-02-12 21:04:23,652 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: defer
+2023-02-12 21:04:23,653 INFO    SenderThread:8562 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-02-12 21:04:23,653 INFO    SenderThread:8562 [sender.py:transition_state():587] send defer: 14
+2023-02-12 21:04:23,654 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 21:04:23,654 INFO    HandlerThread:8562 [handler.py:handle_request_defer():170] handle defer: 14
+2023-02-12 21:04:23,655 DEBUG   SenderThread:8562 [sender.py:send():336] send: final
+2023-02-12 21:04:23,655 DEBUG   SenderThread:8562 [sender.py:send():336] send: footer
+2023-02-12 21:04:23,655 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: defer
+2023-02-12 21:04:23,656 INFO    SenderThread:8562 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-02-12 21:04:23,657 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-12 21:04:23,658 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: poll_exit
+2023-02-12 21:04:23,659 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: server_info
+2023-02-12 21:04:23,660 DEBUG   SenderThread:8562 [sender.py:send_request():363] send_request: server_info
+2023-02-12 21:04:23,666 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: get_summary
+2023-02-12 21:04:23,667 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: sampled_history
+2023-02-12 21:04:24,144 INFO    MainThread:8562 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-02-12 21:04:24,144 INFO    MainThread:8562 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-02-12 21:04:24,144 INFO    MainThread:8562 [wandb_run.py:_footer_sync_info():3398] logging synced files
+2023-02-12 21:04:24,145 DEBUG   HandlerThread:8562 [handler.py:handle_request():144] handle_request: shutdown
+2023-02-12 21:04:24,146 INFO    HandlerThread:8562 [handler.py:finish():841] shutting down handler
+2023-02-12 21:04:24,660 INFO    WriterThread:8562 [datastore.py:close():299] close: /home/keonwookim/infogan/wandb/run-20230212_210018-av1kbwb0/run-av1kbwb0.wandb
+2023-02-12 21:04:25,143 INFO    SenderThread:8562 [sender.py:finish():1493] shutting down sender
+2023-02-12 21:04:25,144 INFO    SenderThread:8562 [file_pusher.py:finish():162] shutting down file pusher
+2023-02-12 21:04:25,144 INFO    SenderThread:8562 [file_pusher.py:join():167] waiting for file pusher

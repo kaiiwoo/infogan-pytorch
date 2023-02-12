@@ -1,0 +1,5 @@
+
+
+Epoch: 0001 | Iter: 0030 | G Loss: 0.69 | D Loss: 1.41 | MI: 2.35 | Real Acc: 62.50% | Fake Acc: 300.00%:   0%|▏                               | 30/7500 [00:03<13:10,  9.45it/s]
+
+Epoch: 0002 | Iter: 0030 | G Loss: 0.70 | D Loss: 1.40 | MI: 2.35 | Real Acc: 62.50% | Fake Acc: 400.00%:   0%|▏                               | 30/7500 [00:02<12:03, 10.32it/s]
