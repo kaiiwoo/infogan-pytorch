@@ -3130,3 +3130,165 @@
 2023-02-13 00:24:58,886 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
 2023-02-13 00:24:59,777 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
 2023-02-13 00:25:01,782 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:25:02,067 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:25:02,345 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-13 00:25:02,347 DEBUG   SenderThread:29687 [sender.py:send():336] send: files
+2023-02-13 00:25:02,347 INFO    SenderThread:29687 [sender.py:_save_file():1321] saving file media/images/images_19_afd7e8332caa2bb1a139.png with policy now
+2023-02-13 00:25:02,348 DEBUG   SenderThread:29687 [sender.py:send():336] send: history
+2023-02-13 00:25:02,349 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: summary_record
+2023-02-13 00:25:02,351 INFO    SenderThread:29687 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-13 00:25:02,354 DEBUG   SenderThread:29687 [sender.py:send():336] send: exit
+2023-02-13 00:25:02,354 INFO    SenderThread:29687 [sender.py:send_exit():559] handling exit code: 0
+2023-02-13 00:25:02,354 INFO    SenderThread:29687 [sender.py:send_exit():561] handling runtime: 3095
+2023-02-13 00:25:02,364 INFO    SenderThread:29687 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-13 00:25:02,365 INFO    SenderThread:29687 [sender.py:send_exit():567] send defer
+2023-02-13 00:25:02,365 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: defer
+2023-02-13 00:25:02,365 INFO    HandlerThread:29687 [handler.py:handle_request_defer():170] handle defer: 0
+2023-02-13 00:25:02,376 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: defer
+2023-02-13 00:25:02,377 INFO    SenderThread:29687 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-02-13 00:25:02,377 INFO    SenderThread:29687 [sender.py:transition_state():587] send defer: 1
+2023-02-13 00:25:02,377 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: defer
+2023-02-13 00:25:02,378 INFO    HandlerThread:29687 [handler.py:handle_request_defer():170] handle defer: 1
+2023-02-13 00:25:02,378 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: defer
+2023-02-13 00:25:02,379 INFO    SenderThread:29687 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-02-13 00:25:02,379 INFO    SenderThread:29687 [sender.py:transition_state():587] send defer: 2
+2023-02-13 00:25:02,379 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: defer
+2023-02-13 00:25:02,380 INFO    HandlerThread:29687 [handler.py:handle_request_defer():170] handle defer: 2
+2023-02-13 00:25:02,380 INFO    HandlerThread:29687 [system_monitor.py:finish():161] Stopping system monitor
+2023-02-13 00:25:02,386 DEBUG   SystemMonitor:29687 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-02-13 00:25:02,386 DEBUG   SystemMonitor:29687 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-02-13 00:25:02,389 INFO    HandlerThread:29687 [interfaces.py:finish():175] Joined cpu
+2023-02-13 00:25:02,389 INFO    HandlerThread:29687 [interfaces.py:finish():175] Joined disk
+2023-02-13 00:25:02,659 INFO    HandlerThread:29687 [interfaces.py:finish():175] Joined gpu
+2023-02-13 00:25:02,659 INFO    HandlerThread:29687 [interfaces.py:finish():175] Joined memory
+2023-02-13 00:25:02,660 INFO    HandlerThread:29687 [interfaces.py:finish():175] Joined network
+2023-02-13 00:25:02,661 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: defer
+2023-02-13 00:25:02,661 INFO    SenderThread:29687 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-02-13 00:25:02,661 INFO    SenderThread:29687 [sender.py:transition_state():587] send defer: 3
+2023-02-13 00:25:02,661 DEBUG   SenderThread:29687 [sender.py:send():336] send: stats
+2023-02-13 00:25:02,662 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: defer
+2023-02-13 00:25:02,663 INFO    HandlerThread:29687 [handler.py:handle_request_defer():170] handle defer: 3
+2023-02-13 00:25:02,664 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: defer
+2023-02-13 00:25:02,664 INFO    SenderThread:29687 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-02-13 00:25:02,664 INFO    SenderThread:29687 [sender.py:transition_state():587] send defer: 4
+2023-02-13 00:25:02,664 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: defer
+2023-02-13 00:25:02,665 INFO    HandlerThread:29687 [handler.py:handle_request_defer():170] handle defer: 4
+2023-02-13 00:25:02,665 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: defer
+2023-02-13 00:25:02,665 INFO    SenderThread:29687 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-02-13 00:25:02,665 INFO    SenderThread:29687 [sender.py:transition_state():587] send defer: 5
+2023-02-13 00:25:02,666 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: defer
+2023-02-13 00:25:02,666 INFO    HandlerThread:29687 [handler.py:handle_request_defer():170] handle defer: 5
+2023-02-13 00:25:02,666 DEBUG   SenderThread:29687 [sender.py:send():336] send: summary
+2023-02-13 00:25:02,667 INFO    SenderThread:29687 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-13 00:25:02,667 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: defer
+2023-02-13 00:25:02,668 INFO    SenderThread:29687 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-02-13 00:25:02,668 INFO    SenderThread:29687 [sender.py:transition_state():587] send defer: 6
+2023-02-13 00:25:02,668 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: defer
+2023-02-13 00:25:02,668 INFO    HandlerThread:29687 [handler.py:handle_request_defer():170] handle defer: 6
+2023-02-13 00:25:02,669 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: defer
+2023-02-13 00:25:02,669 INFO    SenderThread:29687 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-02-13 00:25:02,669 INFO    SenderThread:29687 [sender.py:transition_state():587] send defer: 7
+2023-02-13 00:25:02,669 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:25:02,670 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: defer
+2023-02-13 00:25:02,670 INFO    HandlerThread:29687 [handler.py:handle_request_defer():170] handle defer: 7
+2023-02-13 00:25:02,670 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: defer
+2023-02-13 00:25:02,671 INFO    SenderThread:29687 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-02-13 00:25:02,783 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/wandb-summary.json
+2023-02-13 00:25:02,783 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_created():275] file/dir created: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_19_afd7e8332caa2bb1a139.png
+2023-02-13 00:25:02,784 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images
+2023-02-13 00:25:02,978 INFO    wandb-upload_26:29687 [upload_job.py:push():138] Uploaded file /tmp/tmpxa62ls1lwandb/zzcwpwix-media/images/images_19_afd7e8332caa2bb1a139.png
+2023-02-13 00:25:03,354 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-13 00:25:03,791 INFO    SenderThread:29687 [sender.py:transition_state():587] send defer: 8
+2023-02-13 00:25:03,791 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: poll_exit
+2023-02-13 00:25:03,792 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: defer
+2023-02-13 00:25:03,792 INFO    HandlerThread:29687 [handler.py:handle_request_defer():170] handle defer: 8
+2023-02-13 00:25:03,793 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: defer
+2023-02-13 00:25:03,794 INFO    SenderThread:29687 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-02-13 00:25:03,794 INFO    SenderThread:29687 [sender.py:transition_state():587] send defer: 9
+2023-02-13 00:25:03,795 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: defer
+2023-02-13 00:25:03,795 INFO    HandlerThread:29687 [handler.py:handle_request_defer():170] handle defer: 9
+2023-02-13 00:25:03,796 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: defer
+2023-02-13 00:25:03,796 INFO    SenderThread:29687 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-02-13 00:25:03,796 INFO    SenderThread:29687 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-02-13 00:25:03,797 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:25:03,798 INFO    SenderThread:29687 [dir_watcher.py:finish():392] scan: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files
+2023-02-13 00:25:03,799 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log output.log
+2023-02-13 00:25:03,799 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/config.yaml config.yaml
+2023-02-13 00:25:03,799 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/wandb-metadata.json wandb-metadata.json
+2023-02-13 00:25:03,800 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/conda-environment.yaml conda-environment.yaml
+2023-02-13 00:25:03,808 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/requirements.txt requirements.txt
+2023-02-13 00:25:03,814 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/wandb-summary.json wandb-summary.json
+2023-02-13 00:25:03,842 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_3_955ede0c5b35dbe8e04c.png media/images/images_3_955ede0c5b35dbe8e04c.png
+2023-02-13 00:25:03,843 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_0_28662d99395b7eb8e90d.png media/images/images_0_28662d99395b7eb8e90d.png
+2023-02-13 00:25:03,843 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_17_83517ff781e222e01cac.png media/images/images_17_83517ff781e222e01cac.png
+2023-02-13 00:25:03,843 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_7_38f585c486d93a680b4e.png media/images/images_7_38f585c486d93a680b4e.png
+2023-02-13 00:25:03,843 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_11_0d6b4ef22e07767bf31c.png media/images/images_11_0d6b4ef22e07767bf31c.png
+2023-02-13 00:25:03,844 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_4_595864e58fcb86e4f259.png media/images/images_4_595864e58fcb86e4f259.png
+2023-02-13 00:25:03,844 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_14_6a4e4b014efa764b64ad.png media/images/images_14_6a4e4b014efa764b64ad.png
+2023-02-13 00:25:03,844 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_1_8f0751ff909daea094a1.png media/images/images_1_8f0751ff909daea094a1.png
+2023-02-13 00:25:03,845 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_8_2e44e8c09238593e5593.png media/images/images_8_2e44e8c09238593e5593.png
+2023-02-13 00:25:03,845 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_15_5c8a7032f2066ae0c9a5.png media/images/images_15_5c8a7032f2066ae0c9a5.png
+2023-02-13 00:25:03,845 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_12_37cc7069d773b0df2ca7.png media/images/images_12_37cc7069d773b0df2ca7.png
+2023-02-13 00:25:03,845 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_10_a81e6d95e1bb509df2fa.png media/images/images_10_a81e6d95e1bb509df2fa.png
+2023-02-13 00:25:03,845 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_19_afd7e8332caa2bb1a139.png media/images/images_19_afd7e8332caa2bb1a139.png
+2023-02-13 00:25:03,846 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_6_2a20023174dbed2c0dd4.png media/images/images_6_2a20023174dbed2c0dd4.png
+2023-02-13 00:25:03,846 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_13_937cdbed3436ebbf34e3.png media/images/images_13_937cdbed3436ebbf34e3.png
+2023-02-13 00:25:03,846 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_5_777d7e30f43edc5fba9b.png media/images/images_5_777d7e30f43edc5fba9b.png
+2023-02-13 00:25:03,847 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_9_c76935f8bef13a9b355d.png media/images/images_9_c76935f8bef13a9b355d.png
+2023-02-13 00:25:03,847 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_16_9fabaf96d8b0500acb29.png media/images/images_16_9fabaf96d8b0500acb29.png
+2023-02-13 00:25:03,847 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_18_0fb22ab926ac8fc1b812.png media/images/images_18_0fb22ab926ac8fc1b812.png
+2023-02-13 00:25:03,847 INFO    SenderThread:29687 [dir_watcher.py:finish():406] scan save: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/media/images/images_2_375ac4ea93fe0e94d2f3.png media/images/images_2_375ac4ea93fe0e94d2f3.png
+2023-02-13 00:25:03,847 INFO    SenderThread:29687 [sender.py:transition_state():587] send defer: 10
+2023-02-13 00:25:03,848 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: defer
+2023-02-13 00:25:03,848 INFO    HandlerThread:29687 [handler.py:handle_request_defer():170] handle defer: 10
+2023-02-13 00:25:03,849 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: defer
+2023-02-13 00:25:03,849 INFO    SenderThread:29687 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-02-13 00:25:03,849 INFO    SenderThread:29687 [file_pusher.py:finish():162] shutting down file pusher
+2023-02-13 00:25:04,075 INFO    wandb-upload_11:29687 [upload_job.py:push():138] Uploaded file /tmp/tmpxa62ls1lwandb/mkrzg6gd-media/images/images_19_afd7e8332caa2bb1a139.png
+2023-02-13 00:25:04,355 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-13 00:25:04,356 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: poll_exit
+2023-02-13 00:25:04,444 INFO    wandb-upload_18:29687 [upload_job.py:push():138] Uploaded file /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/config.yaml
+2023-02-13 00:25:04,515 INFO    wandb-upload_41:29687 [upload_job.py:push():138] Uploaded file /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:25:04,525 INFO    wandb-upload_19:29687 [upload_job.py:push():138] Uploaded file /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/conda-environment.yaml
+2023-02-13 00:25:04,533 INFO    wandb-upload_44:29687 [upload_job.py:push():138] Uploaded file /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/requirements.txt
+2023-02-13 00:25:04,543 INFO    wandb-upload_29:29687 [upload_job.py:push():138] Uploaded file /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/wandb-summary.json
+2023-02-13 00:25:04,744 INFO    Thread-12 :29687 [sender.py:transition_state():587] send defer: 11
+2023-02-13 00:25:04,744 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: defer
+2023-02-13 00:25:04,744 INFO    HandlerThread:29687 [handler.py:handle_request_defer():170] handle defer: 11
+2023-02-13 00:25:04,745 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: defer
+2023-02-13 00:25:04,745 INFO    SenderThread:29687 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-02-13 00:25:04,745 INFO    SenderThread:29687 [file_pusher.py:join():167] waiting for file pusher
+2023-02-13 00:25:04,745 INFO    SenderThread:29687 [sender.py:transition_state():587] send defer: 12
+2023-02-13 00:25:04,746 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: defer
+2023-02-13 00:25:04,746 INFO    HandlerThread:29687 [handler.py:handle_request_defer():170] handle defer: 12
+2023-02-13 00:25:04,747 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: defer
+2023-02-13 00:25:04,747 INFO    SenderThread:29687 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-02-13 00:25:05,006 INFO    SenderThread:29687 [sender.py:transition_state():587] send defer: 13
+2023-02-13 00:25:05,007 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: defer
+2023-02-13 00:25:05,007 INFO    HandlerThread:29687 [handler.py:handle_request_defer():170] handle defer: 13
+2023-02-13 00:25:05,007 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: defer
+2023-02-13 00:25:05,008 INFO    SenderThread:29687 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-02-13 00:25:05,008 INFO    SenderThread:29687 [sender.py:transition_state():587] send defer: 14
+2023-02-13 00:25:05,009 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: defer
+2023-02-13 00:25:05,009 INFO    HandlerThread:29687 [handler.py:handle_request_defer():170] handle defer: 14
+2023-02-13 00:25:05,009 DEBUG   SenderThread:29687 [sender.py:send():336] send: final
+2023-02-13 00:25:05,010 DEBUG   SenderThread:29687 [sender.py:send():336] send: footer
+2023-02-13 00:25:05,010 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: defer
+2023-02-13 00:25:05,010 INFO    SenderThread:29687 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-02-13 00:25:05,012 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-13 00:25:05,012 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: poll_exit
+2023-02-13 00:25:05,014 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-13 00:25:05,014 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: poll_exit
+2023-02-13 00:25:05,015 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: server_info
+2023-02-13 00:25:05,016 DEBUG   SenderThread:29687 [sender.py:send_request():363] send_request: server_info
+2023-02-13 00:25:05,021 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: get_summary
+2023-02-13 00:25:05,022 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: sampled_history
+2023-02-13 00:25:05,480 INFO    MainThread:29687 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-02-13 00:25:05,481 INFO    MainThread:29687 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-02-13 00:25:05,481 INFO    MainThread:29687 [wandb_run.py:_footer_sync_info():3398] logging synced files
+2023-02-13 00:25:05,482 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: shutdown
+2023-02-13 00:25:05,482 INFO    HandlerThread:29687 [handler.py:finish():841] shutting down handler
+2023-02-13 00:25:06,016 INFO    WriterThread:29687 [datastore.py:close():299] close: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/run-ktox2dxn.wandb
+2023-02-13 00:25:06,480 INFO    SenderThread:29687 [sender.py:finish():1493] shutting down sender
+2023-02-13 00:25:06,480 INFO    SenderThread:29687 [file_pusher.py:finish():162] shutting down file pusher
+2023-02-13 00:25:06,481 INFO    SenderThread:29687 [file_pusher.py:join():167] waiting for file pusher
