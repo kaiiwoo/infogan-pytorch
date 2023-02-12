@@ -3030,3 +3030,103 @@
 2023-02-13 00:23:12,010 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
 2023-02-13 00:23:13,464 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
 2023-02-13 00:23:13,677 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:23:15,470 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:17,011 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:23:17,475 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:18,678 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:23:19,482 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:21,486 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:22,013 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:23:23,691 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:23:24,492 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:26,497 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:26,936 DEBUG   SenderThread:29687 [sender.py:send():336] send: stats
+2023-02-13 00:23:27,014 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:23:28,504 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:28,697 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:23:29,507 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:31,513 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:32,015 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:23:33,703 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:23:34,522 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:35,526 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:37,017 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:23:37,532 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:38,716 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:23:39,536 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:42,018 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:23:42,543 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:43,547 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:43,728 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:23:45,552 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:47,029 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:23:47,575 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:48,744 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:23:49,578 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:51,580 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:52,020 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:23:53,582 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:53,753 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:23:55,584 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:56,938 DEBUG   SenderThread:29687 [sender.py:send():336] send: stats
+2023-02-13 00:23:57,022 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:23:57,586 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:23:58,765 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:23:59,615 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:01,617 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:02,023 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:24:03,627 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:03,776 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:24:05,630 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:07,024 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:24:08,636 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:08,793 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:24:10,641 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:12,025 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:24:12,657 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:13,657 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:13,793 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:24:15,660 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:17,026 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:24:17,662 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:18,798 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:24:19,667 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:21,672 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:22,028 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:24:23,810 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:24:24,678 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:26,683 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:26,942 DEBUG   SenderThread:29687 [sender.py:send():336] send: stats
+2023-02-13 00:24:27,029 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:24:28,688 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:28,817 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:24:30,695 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:31,699 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:32,030 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:24:33,707 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:33,819 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:24:35,725 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:37,031 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:24:37,727 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:38,828 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:24:39,729 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:41,733 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:42,043 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:24:43,735 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:43,844 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:24:45,739 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:47,034 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:24:47,743 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:48,858 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:24:49,749 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:51,754 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:52,035 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:24:53,759 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:53,874 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:24:56,765 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:56,946 DEBUG   SenderThread:29687 [sender.py:send():336] send: stats
+2023-02-13 00:24:57,036 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-13 00:24:58,770 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:24:58,886 DEBUG   HandlerThread:29687 [handler.py:handle_request():144] handle_request: status_report
+2023-02-13 00:24:59,777 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
+2023-02-13 00:25:01,782 INFO    Thread-13 :29687 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/keonwookim/infogan/wandb/run-20230212_233325-ktox2dxn/files/output.log
